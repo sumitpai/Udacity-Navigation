@@ -24,18 +24,24 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 ### Getting Started
 
-- Clone the repository. Download python 3.6 and Pytorch 1.0.
+- Clone the repository using the following command:
+
+`git clone --recurse-submodules https://github.com/sumitpai/Udacity-Navigation.git`
+
+**It is very important that you add the `--recurse-submodules` flag because rllib is an embedded sub repository. It will not be downloaded correctly without this flag.**
+
+- Download python 3.6 and Pytorch 1.0.
 
 - Install the unity environment as described here: [Getting Started section](https://github.com/udacity/deep-reinforcement-learning/blob/master/p1_navigation/README.md) (The Unity ML-agant environment is already configured by Udacity)
 
-- The current repo has the environment for MAC. If you are using any other operating system download the corresponding build. If so, the code needs to be updated to point to the downloaded environment.
+- The current repo has the environment for MAC. If you are using any other operating system download the corresponding build from the link above. The code needs to be updated to point to the downloaded environment.
 
 ### Training and testing the agent
 
-- The Navigation.ipynb can be executed to train/test the agent. The agent checkpoint is saved as nav_agent_checkpoint.pth. You can skip the training part and directly jump to the last cell to load the checkpoint and see the trained agent perform the navigation task.
+- The Navigation.ipynb can be executed to train/test the agent. The agent checkpoint is saved as nav_agent_checkpoint.pth. Once you create the agent(cell 5) you can skip the training part and directly jump to the last cell to load the checkpoint and see the trained agent perform the navigation task.
 
 ### Request
 
-- I am building a library for doing reinforcement learning. The rllib folder is another embedded repository. It would be updated time to time. All my three projects are using the same repo. If you are interested in collaborating, you can fork it and contribute. I would be very grateful for your contributions.
+- I am building a library for doing reinforcement learning. The rllib folder is another embedded repository. It would be updated time to time. The sub-repository in this projects links to an older version (first version) of the library. All my three projects are using the same repo (updated versions). If you are interested in collaborating, you can fork it and contribute. I would be very grateful for your contributions.
 
 
