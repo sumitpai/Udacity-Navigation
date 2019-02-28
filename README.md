@@ -28,7 +28,7 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 - Install the unity environment as described here: [Getting Started section](https://github.com/udacity/deep-reinforcement-learning/blob/master/p1_navigation/README.md) (The Unity ML-agant environment is already configured by Udacity)
 
-- The current repo has the environment for MAC. If you are using any other operating system download the corresponding build. If so, he code needs to be updated to point to the downloaded environment.
+- The current repo has the environment for MAC. If you are using any other operating system download the corresponding build. If so, the code needs to be updated to point to the downloaded environment.
 
 ### Training and testing the agent
 
